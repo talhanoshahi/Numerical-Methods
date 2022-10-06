@@ -8,7 +8,8 @@ f = str2func (str); % converts the string into a function
 
 if f  (a) * f (b) > 0 % condition checks if the sign of both expected roots are different or not
     printf ("The root of equation is not found in the given range.\n");
-    printf ("help: check if both roots have the same sign. Both roots should have different signs.");
+    printf ("help: check if both roots have the same sign. Both roots should have different signs.\n");
+    exit;
 end
 
 midpoint = (a + b) / 2;
