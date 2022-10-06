@@ -15,7 +15,7 @@ midpoint = (a + b) / 2;
 
 tolerance = input ("Enter the tolerance: "); % how many digits after decimal should the answer be accurate
 
-while f(midpoint) > tolerance
+while abs(f(midpoint)) > tolerance
 
   if f(midpoint) == 0
     break;
