@@ -1,3 +1,5 @@
+% octave code 
+
 a = input ("Enter first guessed root: ");
 b = input ("Enter last guessed root: ");
 
