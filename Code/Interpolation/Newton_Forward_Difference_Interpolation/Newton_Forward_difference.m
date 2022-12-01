@@ -14,8 +14,8 @@ if ~exist(y_file)
 end
 
 % reading the both matrices from the csv files
-x = csvread ("x_mat.csv");
-y = csvread ("y_mat.csv");
+x = csvread (x_file);
+y = csvread (y_file);
 
 % finding the length of both matrices to check if both matrices have equal number of elements
 x_len = length(x);
