@@ -1,0 +1,1 @@
+This is the code for Newton's Backward Interpolation. There are some bugs in it like the "ans" variable is not getting muted and the example x2_mat.csv and y2_mat.csv is not working. I will try to fix that in the future.
